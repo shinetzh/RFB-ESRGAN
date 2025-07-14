@@ -4,7 +4,7 @@
 <img width="1768" height="710" alt="image" src="https://github.com/user-attachments/assets/6854fef7-a603-4aeb-a443-0ed0ddfa1d6f" />
 
 
-# Runing Environment
+## Runing Environment
    Packages should be install:
 - python3
 - pytorch
@@ -19,19 +19,19 @@ The script run on GPU 0, please Guarantee the GPU 0 has enough memory for run th
 
 If you need use anathor GPU to run the scipts, please change the GPU number `gpu_ids` in `./options/test/config.yml`
 
-# Pretrain Checkpoint
+## Pretrain Checkpoint
 In `./pth` folder
 
-# How to run the script?
+## How to run the script?
    replace the `./NTIRE2020_testLR` as the absolute path of your test images dir.
    ```bash
    python3 test.py --test_images ./NTIRE2020_testLR
    ```
 
-# Check Results
+## Check Results
    the result is in dir `./result_images`, the full-resolution result images is in dir `./full_resolution_images`
 
-# Citation
+## Citation
 ```
 @inproceedings{shang2020perceptual,
   title={Perceptual extreme super-resolution network with receptive field block},
