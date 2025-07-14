@@ -30,3 +30,14 @@ In `./pth` folder
 
 # Check Results
    the result is in dir `./result_images`, the full-resolution result images is in dir `./full_resolution_images`
+
+# Citation
+```
+@inproceedings{shang2020perceptual,
+  title={Perceptual extreme super-resolution network with receptive field block},
+  author={Shang, Taizhang and Dai, Qiuju and Zhu, Shengchen and Yang, Tong and Guo, Yandong},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops},
+  pages={440--441},
+  year={2020}
+}
+```
